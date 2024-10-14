@@ -19,7 +19,7 @@ function Player() {
     headers: {
       accept: "application/json",
       Authorization:
-        "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzOGNkNDM1MzQxYjY3YjM0OGMyNzNlMzk3NmM2ODI4OSIsIm5iZiI6MTcyNjIzMDc0Ni43NTMzMTgsInN1YiI6IjY2ZTJhODJiMDAwMDAwMDAwMGI5MThkYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.jWRj4cfyc5aRAPR3oSkrE-ZA0iJzIfBzkc7qaiOkhys",
+        import.meta.env.VITE_REACT_APP_TITTLECARD,
     },
   };
 
